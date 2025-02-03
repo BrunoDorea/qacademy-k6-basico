@@ -1,0 +1,17 @@
+{
+    "name": "qacademy-k6-basico",
+    "version": "1.0.0",
+    "description": "Teste de API com K6",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "k6 run tests/signup.js",
+        "smoke": "k6 run tests/signup-smoke.js",
+        "load": "k6 run tests/signup-load.js",
+        "stress": "k6 run tests/signup-stress.js"
+    },
+    "keywords": [],
+    "license": "ISC"
+}
